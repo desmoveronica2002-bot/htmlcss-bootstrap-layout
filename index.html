@@ -14,7 +14,7 @@
   
 
 
-    <header class="container text-center">  <!-- CONTENITORE -->
+    <header class="container text-center my-5">  <!-- CONTENITORE --> <!-- my-5 = margin Y 5-->
     <h1>Bootstrsp 5 Responsive Grid</h1>
     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perferendis esse ex, omnis, 
        eos nulla magni quis </p>
@@ -22,27 +22,50 @@
 
 
 
-    <main class="container">   <!-- CONTENITORE -->
+  <main class="container">   <!-- CONTENITORE -->
 
-    <div class="mb-4">
+    <div class= "container ">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 bg-light p-4"> <!--col (mobile) / col-md (medium) / col-lg (large) ... screen  .   p-4 padding-->
+            <div class="col-12 col-md-6 col-lg-4 bg-light p-4"> <!--col (mobile) / col-md (medium) / col-lg (large) ... screen  .   p-4 padding  .   bg background-->
                <h2>Colonna 1</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, 
                 dolor consectetur atque quis sint!.</p>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-8 bg-secondary text-white p-4">
+            <div class="col-12 col-md-6 col-lg-8 bg-secondary text-white p-4"> <!--metto col-lg solo quando cambio successivamente il layout nel desktop--->
                 <h3>Colonna 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure laborum 
                     adipisci delectus illum </p>
+             </div>
+         </div>
+    </div>  
+    
+    
+    <div class= "container my-5 "> <!--margin Y 5-->
+        <div class="row text-white">
+            <div class="col-6 col-md-4 bg-primary p-4"> <!--col (mobile) / col-md (medium) / col-lg (large) ... screen  .   p-4 padding--> <!--col-md-4 vale sia per medium che large e essendo che non cambio layout non serve specificare un col-lg-->
+               <h2>Colonna 1</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, 
+                dolor consectetur atque quis sint!.</p>
+            </div>
+
+            <div class="col-6 col-md-4 bg-success p-4">
+                <h3>Colonna 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure laborum 
+                    adipisci delectus illum </p>
+             </div>
+
+            <div class="col-12 col-md-4 bg-danger p-4">
+                <h3>Colonna 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure laborum 
+                   adipisci delectus illum </p>
+            </div>
         </div>
-    </div>
-
-    </main>
+    </div>     
 
 
 
+  </main>
 
 
 </body>
